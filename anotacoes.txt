@@ -26,5 +26,11 @@ obs: o -m dentro do commit é para passar a mensagem entre parenteses
  exemplo 02 -> forma condensada
  git log --online
 
+git checkout <codigo do git log> -> esse comando usamos junto com um código, o git checkout é usado para voltar ao estado de um commit que fizemos anteriormente.
+exemplo01
+git checkout 9d82dfc
+obs: perceba que depois do chekout tem um código, esse código nó obtemos atraves do git log, pois no git log conseguimos ver todo historico de commits ja feito e quando queremos que nosso projeto volte a um estado de um commit, usamos o git chekout com o código do commit desejado.
 
-
+exemplo02
+git checkout master
+obs: esse comando checkout com o master é usado quando usamos o git checkout <código> e agora queremos voltar o projeto para a versão que estava mais atual.
