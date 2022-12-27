@@ -23,3 +23,11 @@ git branch -D <nome do branch> = com o(D = maiusculo) apaga mesmo sem o merge
 
 OBS: com ese comando estamos deletando o nosso branch
 
+git merge -> o comando merger serve para que possamo juntas branhs diferentes em um só, o que na verdade acontece é que vamos verificar oq tem um branch e verificar oque tem em outro branch, e fundir.
+No caso a fusão se da fazendo que os arquivos que nao tem em um branch va para o outro
+
+exemplo 01 -> vamo deixar ativo o branch master ou main, com o comando 
+git checkout master ou main, depois vamos dar um merge desse branch MASTER com outro que vamos escolher
+
+git merge <nome do branch>
+OBS: feito isso ele vai pegar os arquivos do branch que escolhemos no merge e comparar ele com os arquivos do branch MASTER, e todo arquivo que o branch que escolhemos no merge tiver e NÃO TIVER NO BRANCH MASTER, vai ser trazido e assim faz a fusão.
