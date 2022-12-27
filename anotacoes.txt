@@ -1,0 +1,30 @@
+Iniciar um repositorio
+
+git init -> inicia o Git
+
+git status -> como esta o seu projeto antes do commit e afins,
+como se fosse uma especie de preparo.
+
+git add -> estamos adicionando ao repositorio um arquivo, se o arquivo ja existe quer dizer que vamos adicionar um arquivo ou arquivos para subir o add funciona como uma preparação antes do comando git commit.
+
+exemplo 01
+git add <nome do arquivo> -> estamos mandando um arquivo especifico para o nosso repositorio
+
+exemplo 02
+git add . -> usando o comando com um "ponto" vamos mandar tudo que tivermos no projeto para o repositorio.
+
+git commit -> E finalmente o commit, esse comando é usado depois de fazermos o comando git add. O comando COMMIT é o responsavel de subir para o repositorio o arquivo ou a modificação que fizemos em algo do projeto.
+
+exemplo 01
+git commit -m "uma anotação do que vc esta subindo";
+obs: o -m dentro do commit é para passar a mensagem entre parenteses
+
+ git log -> esse comando serve para que você possa ver o historico de commits que foram realizados
+
+ exemplo 01
+ git log
+ exemplo 02 -> forma condensada
+ git log --online
+
+
+
