@@ -16,5 +16,7 @@ git checkout teste
 OBS: para trocarmos de branch vamos ter a ajuda de outro comando o 
 git checkout <nome da branch>, pois o checkout ele checa os commits volta desfaz e reversa e alem disso tudo ele é quem faz a mudança dos branchs.
 
-
+exemplo 04
+git branch -d teste
+OBS: com ese comando estamos deletando o nosso branch
 
