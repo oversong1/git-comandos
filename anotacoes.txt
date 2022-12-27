@@ -47,3 +47,6 @@ obs: vai resetar os commits até o ponto do código que você passou, no entando
 exemplo 02
 git reset 9d82dfc --hard
 obs: ja esse comando com o a flag --hard, faz com que tudo seja resetado de vez até aquele commits do código passado.
+
+OBS é um arquivo criado chamado .gitignore
+o arquivo ".gitignore" serve para que possamos colocar ou descrever arquivos que devem ser ignorados pelo git ou github. Pois certos arquivos de configuração não devem estar acessivel ao publico que contenha dados pessoas ou criticos
