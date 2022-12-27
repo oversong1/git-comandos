@@ -34,3 +34,16 @@ obs: perceba que depois do chekout tem um código, esse código nó obtemos atra
 exemplo02
 git checkout master
 obs: esse comando checkout com o master é usado quando usamos o git checkout <código> e agora queremos voltar o projeto para a versão que estava mais atual.
+
+git reverse <código> -> esse código funciona quase igual o checkout  
+exemplo 01
+git reverse 9d82dfc
+
+git reset <código> -> esse código funciona quase igual o checkout  
+exemplo 01
+git reset 9d82dfc
+obs: vai resetar os commits até o ponto do código que você passou, no entando ainda se pode comparar o antigo com os futuros commits
+
+exemplo 02
+git reset 9d82dfc --hard
+obs: ja esse comando com o a flag --hard, faz com que tudo seja resetado de vez até aquele commits do código passado.
