@@ -1,2 +1,5 @@
-
+git branch -> esse comando serve para ver em qual ramificaçao 
+estamos trabalhando uma vez que podemos no mesmo projeto ter 
+ramificaçãoes para trabalhar e depois que criamos algo novo e testarmos
+jogamos para o BRANCH MASTER para agrupar a nova fiture
 
