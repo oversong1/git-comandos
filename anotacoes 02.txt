@@ -12,5 +12,9 @@ git branch teste
 OBS: esse comando CRIA UMA REMIFICAÇÃO NOVA COM O NOME "TESTE"
 
 exemplo 03
+git checkout teste
+OBS: para trocarmos de branch vamos ter a ajuda de outro comando o 
+git checkout <nome da branch>, pois o checkout ele checa os commits volta desfaz e reversa e alem disso tudo ele é quem faz a mudança dos branchs.
+
 
 
