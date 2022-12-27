@@ -3,3 +3,14 @@ estamos trabalhando uma vez que podemos no mesmo projeto ter
 ramificaçãoes para trabalhar e depois que criamos algo novo e testarmos
 jogamos para o BRANCH MASTER para agrupar a nova fiture
 
+exemplo 01
+git branch
+OBS: esse comando sozinho verica em qual branch estamos
+
+exemplo02
+git branch teste 
+OBS: esse comando CRIA UMA REMIFICAÇÃO NOVA COM O NOME "TESTE"
+
+exemplo 03
+
+
