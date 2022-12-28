@@ -73,3 +73,9 @@ git remote add origin https://github.com/oversong1/projeto-1.git
 OBS: usamos o remote add e dizemos o nome que ele vai ter e o repositorio que vai ser enviado, depois disso só precisamos dar o comando git push origin main
 
 
+git clone -> comando usado quando vamos clonar um repositrio direto do github
+
+exemplo 01 
+git clone <link do repositorio>
+OBS faça esse comando dentro a pasta que vc quer armazenar o projeto que vai ser clonado e usando o termial de sua escolha com o caminho para a pasta 
+
