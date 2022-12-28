@@ -35,6 +35,10 @@ exemplo02
 git checkout master
 obs: esse comando checkout com o master é usado quando usamos o git checkout <código> e agora queremos voltar o projeto para a versão que estava mais atual.
 
+exemplo 03
+git checkout -b arquivos
+OBS: o comando checkout tem uma função de mudar de branch, no entando com o a tag -b <nome do branch>, você consegue não só mudar o branch mais sim criar e entrar no branch com um unico comando.
+
 git reverse <código> -> esse código funciona quase igual o checkout  
 exemplo 01
 git reverse 9d82dfc
