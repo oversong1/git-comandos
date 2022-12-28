@@ -31,3 +31,17 @@ git checkout master ou main, depois vamos dar um merge desse branch MASTER com o
 
 git merge <nome do branch>
 OBS: feito isso ele vai pegar os arquivos do branch que escolhemos no merge e comparar ele com os arquivos do branch MASTER, e todo arquivo que o branch que escolhemos no merge tiver e NÃO TIVER NO BRANCH MASTER, vai ser trazido e assim faz a fusão.
+
+Resolvendo conflitos 
+
+Quando damos um MERGE de um branch para outro se existir linhas com parametros ou informações conflitantes para a mesma coisa, o git vai para o merge e vai apontar no seu codigo onde esta o conflito para que possamos resolver, comentarios mostrando onde demove deixar ou apagar o conflito após apagar ou resolver o conflito de arquivos e codigo, podemos fazer o commit
+
+exemplo 01
+
+body{
+<<<<<<< HEAD
+    background-color: #f60;
+=======
+    background-color: #000;
+>>>>>>> whatsapp
+}
