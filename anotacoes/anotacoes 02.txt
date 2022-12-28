@@ -66,6 +66,10 @@ exemplo 02
 git push origin
 OBS: Ja faz com que ele entenda que vai ser no master 
 
+exemplo 03
+git push origin <nome do repositorio>
+OBS: estamos enviando um push para um branch especifico, ao dar esse comando se for a primeira vez o github vai criar esse branch que você esta mostrando, se ja existir esse branch no github ele vai só atualizar.
+
 git remote -> esse comando serve para dar um alias ou um apelido para que não seja precisa toda vez que formos fazer um git push, ter que digitar o comando todos de git push https://github.com/oversong1/projeto-1.git master
 
 exemplo 01 
