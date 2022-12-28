@@ -72,6 +72,11 @@ exemplo 01
 git remote add origin https://github.com/oversong1/projeto-1.git
 OBS: usamos o remote add e dizemos o nome que ele vai ter e o repositorio que vai ser enviado, depois disso só precisamos dar o comando git push origin main
 
+git pull -> esse comando serve para trazer tudo que foi modificado do github, ele vai trazer arquivos pastas e afins do projeto caso tenha coisas novas para trazer
+
+exemplo 01 
+git pull origin
+OBS:o origin é o alias que criamos com o git remote
 
 git clone -> comando usado quando vamos clonar um repositrio direto do github
 
